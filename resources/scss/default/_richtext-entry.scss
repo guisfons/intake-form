@@ -1,0 +1,100 @@
+/* ------------------------------------------------------------ *\
+	Richtext Entry
+\* ------------------------------------------------------------ */
+
+.richtext-entry {
+
+	ul:not([class]),
+	ol:not([class]) {
+		padding-left: 30px;
+
+		ol,
+		ul {
+			padding-left: 30px;
+		}
+	}
+
+	ul:not([class]) {
+		list-style: none;
+	}
+
+	ul:not([class]) li {
+		position: relative;
+
+		&::before {
+			content         : '';
+			display         : block;
+			position        : absolute;
+			top             : 6px;
+			left            : -28px;
+			z-index         : 20;
+			border-radius   : 4px;
+			width           : 16px;
+			height          : 16px;
+			background-color: $c-white;
+			mask            : url(../images/svgs/check_icon.svg);
+			mask-position   : center;
+			mask-size       : 10px;
+			mask-repeat     : no-repeat;
+		}
+
+		&::after {
+			content         : '';
+			width           : 16px;
+			height          : 16px;
+			position        : absolute;
+			top             : 6px;
+			left            : -28px;
+			border-radius   : 4px;
+			background-color: var(--primary);
+		}
+	}
+
+	a {
+		font-weight    : bold;
+		text-decoration: underline;
+
+		&.btn,
+		&.btn-default,
+		&.btn-simple,
+		&.button-default,
+		&.button-simple {
+			font-weight    : unset;
+			text-decoration: unset;
+		}
+	}
+
+	p {
+		margin-bottom: 40px;
+
+		@include breakpoint-down(mobile) {
+			margin-bottom: 32px;
+		}
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	span.highlighted {
+		color: var(--primary)
+	}
+
+	>*.alignwide {
+		width    : 100%;
+		max-width: 100%;
+		clear    : both;
+	}
+
+	>*.aligncenter {
+		margin-left : auto;
+		margin-right: auto;
+	}
+
+	>*.alignfull {
+		margin-left : calc(50% - 50vw);
+		margin-right: calc(50% - 50vw);
+		width       : auto;
+		padding     : 0 20px;
+	}
+}

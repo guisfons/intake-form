@@ -1,0 +1,48 @@
+.intake-form-container {
+    .sticky--menu {
+        display  : block;
+        position : fixed;
+        top      : 50%;
+        left     : 0;
+        transform: translate(50%, -25%);
+        display  : none;
+        z-index  : 1002;
+
+        ul {
+            list-style: none;
+
+            li {
+                background   : #3B3B75;
+                color        : #FFF;
+                margin-bottom: 5px;
+                border-radius: 5px;
+
+                a {
+                    width          : 55px;
+                    height         : 55px;
+                    display        : flex;
+                    align-items    : center;
+                    justify-content: center;
+
+                    i {
+                        font-size: 28px;
+                    }
+
+                    span {
+                        display: none;
+                    }
+                }
+
+                &:hover {
+                    background: #555688;
+                }
+            }
+        }
+    }
+}
+
+.is-scrolled {
+    .sticky--menu {
+        display: block;
+    }
+}

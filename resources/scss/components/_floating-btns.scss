@@ -1,0 +1,40 @@
+.custom-floating-btns {
+    position : fixed;
+    top      : 50%;
+    right    : 0;
+    transform: translate(-50%, -121%);
+
+    ul {
+        list-style     : none;
+        display        : flex;
+        flex-direction : column;
+        gap            : 10px;
+        justify-content: center;
+        align-items    : center;
+
+        li {
+            a {
+                background     : #E16561;
+                border-radius  : 8px;
+                width          : 55px;
+                height         : 55px;
+                display        : flex;
+                align-items    : center;
+                justify-content: center;
+
+                i {
+                    font-size: 28px;
+                    color    : #FFF;
+                }
+
+                span {
+                    font-size: 0;
+                }
+
+                img {
+                    border-radius: 6px;
+                }
+            }
+        }
+    }
+}

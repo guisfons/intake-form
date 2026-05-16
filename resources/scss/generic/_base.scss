@@ -1,0 +1,143 @@
+/* ------------------------------------------------------------ *\
+	Base
+\* ------------------------------------------------------------ */
+
+body {
+	min-width     : 320px;
+	background    : rgb(247, 249, 252);
+	background    : linear-gradient(180deg, rgba(247, 249, 252, 1) 0%, rgba(247, 249, 252, 1) 100%);
+	font-family   : var(--font-primary);
+	color         : #444240;
+	font-weight   : $font-weight-base;
+	font-size     : $font-size-base;
+	line-height   : $line-height-base;
+	letter-spacing: $letter-spacing-base;
+}
+
+a {
+	color          : inherit;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.h1,
+h1,
+.h2,
+h2,
+.h3,
+h3,
+.h4,
+h4,
+.h5,
+h5,
+.h6,
+h6 {
+	margin-bottom : calc(#{$line-height-base}em / 2);
+	letter-spacing: $letter-spacing-base;
+	font-family   : var(--font-primary);
+	font-weight   : 500;
+	line-height   : 1.5;
+}
+
+.h1,
+h1 {
+	font-size     : 60px;
+	letter-spacing: -0.015em;
+
+	@include breakpoint-down(mobile) {
+		font-size: 48px;
+	}
+
+	@include breakpoint-down(mobile-small) {
+		font-size: 35px;
+	}
+}
+
+.h2,
+h2 {
+	font-size     : 60px;
+	letter-spacing: -0.025em;
+	color         : var(--primary);
+
+	@include breakpoint-down(mobile) {
+		font-size: 48px;
+	}
+
+	@include breakpoint-down(mobile-small) {
+		font-size: 35px;
+	}
+}
+
+.h3,
+h3 {
+	font-size    : 48px;
+	margin-bottom: 31px;
+
+	@include breakpoint-down(mobile-small) {
+		font-size: 36px;
+	}
+}
+
+.h4,
+h4 {
+	font-size     : 34px;
+	letter-spacing: 0.025em;
+}
+
+.h5,
+h5 {
+	font-size     : 20px;
+	font-weight   : 700;
+	letter-spacing: 0.015em;
+}
+
+.h6,
+h6 {
+	font-size     : 12px;
+	letter-spacing: 0.005em;
+}
+
+p,
+ul,
+ol,
+dl,
+hr,
+table,
+blockquote {
+	margin-bottom: #{$line-height-base}em;
+}
+
+h1:last-child,
+h2:last-child,
+h3:last-child,
+h4:last-child,
+h5:last-child,
+h6:last-child,
+p:last-child,
+ul:last-child,
+ol:last-child,
+dl:last-child,
+table:last-child,
+blockquote:last-child {
+	margin-bottom: 0;
+}
+
+//Blockqupte
+blockquote {
+	border-left : 4px solid var(--secondary);
+	padding-left: 16px;
+
+	p {
+		font-family   : var(--font-primary);
+		color         : var(--third);
+		font-style    : normal;
+		font-weight   : normal;
+		font-size     : 22px;
+		line-height   : 32px;
+		max-width     : 782px;
+		letter-spacing: 0;
+	}
+}

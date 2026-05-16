@@ -1,0 +1,47 @@
+.hero--container {
+    background-repeat         : no-repeat;
+    background-position       : center;
+    background-size           : cover;
+    height                    : 658px;
+
+    .shell {
+        height: 100%;
+
+        .hero--content {
+            height         : 100%;
+            display        : flex;
+            justify-content: center;
+            text-align     : center;
+            align-items    : end;
+
+            &--text {
+                h1 {
+                    color    : #FFF;
+                    font-size: 52px;
+                }
+
+                a {
+                    color        : #FFF;
+                    font-size    : 19px;
+                    margin-bottom: 75px;
+                    display      : inline-block;
+
+                    span {
+                        display: block;
+                    }
+
+                    i {
+                        font-size    : 24px;
+                        margin-top   : 25px;
+                        border       : 2px solid #FFF;
+                        border-radius: 100%;
+                        text-align   : center;
+                        width        : 40px;
+                        height       : 40px;
+                        padding-top  : 6px;
+                    }
+                }
+            }
+        }
+    }
+}

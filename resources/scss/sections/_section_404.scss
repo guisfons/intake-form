@@ -1,0 +1,137 @@
+section.section-default--404 {
+	background-size    : cover;
+	background-position: center -50px;
+	background-repeat  : no-repeat;
+	padding            : 148px 0 163px 0;
+
+	@include breakpoint-down(mobile) {
+		background-size    : 150%;
+		background-position: center 40%;
+	}
+
+	.shell.section__shell {
+		@include breakpoint-down(mobile) {
+			max-width: 100%;
+			padding  : 0;
+		}
+	}
+
+	.section__inner {
+		text-align: center;
+
+		.section__content {
+			left     : 50%;
+			transform: translateX(-50%);
+			max-width: 60%;
+			padding  : 6px;
+			position : relative;
+			z-index  : 1;
+
+			@include breakpoint-down(tablet) {
+				max-width: 90%;
+			}
+
+			@include breakpoint-down(mobile) {
+				max-width: 100%;
+			}
+
+			h1 {
+				color         : var(--primary);
+				font-family   : var(--font-primary);
+				font-weight   : 700;
+				font-size     : 250px;
+				letter-spacing: 0.005em;
+				line-height   : 250px;
+				margin-bottom : 10px;
+				margin-top    : -105px;
+				text-align    : center;
+
+				@include breakpoint-down(mobile) {
+					font-size  : 160px;
+					line-height: 160px;
+					margin-top : -60px;
+				}
+			}
+
+			p {
+				color         : var(--fifth);
+				font-style    : normal;
+				font-size     : 36px;
+				font-weight   : 600;
+				line-height   : 46px;
+				letter-spacing: 0.005em;
+				text-align    : center;
+			}
+
+			&:not(.hide-decorations) {
+				&::before {
+					background-color     : var(--primary);
+					content              : '';
+					height               : 100%;
+					left                 : 0;
+					position             : absolute;
+					top                  : 0;
+					width                : 100%;
+					//-webkit-mask         : url(../images/svgs/dots.svg);
+					-webkit-mask-position: center;
+					-webkit-mask-repeat  : repeat;
+					//mask                 : url(../images/svgs/dots.svg);
+					mask-position        : center;
+					mask-repeat          : repeat;
+					z-index              : 0;
+
+				}
+			}
+
+		}
+
+		ul {
+			margin-top     : 40px;
+			justify-content: center;
+
+			@include breakpoint-down(mobile) {
+				display: flex;
+			}
+
+			.button-wrapper {
+				overflow: hidden;
+				position: relative;
+				//@extend .mayfair-global--default-cta;
+
+				@include breakpoint-down(mobile) {
+					width: 90%;
+				}
+
+				&::before {
+					content: '' !important;
+				}
+
+				.btn {
+					color         : $c-white;
+					font-family   : var(--font-primary);
+					font-style    : normal;
+					font-weight   : 500;
+					font-size     : 16px;
+					letter-spacing: 0.005em;
+					line-height   : 26px;
+
+					&:hover {
+						background-color: unset;
+					}
+				}
+
+				a {
+					.cap-first {
+						display: block;
+						cursor : pointer;
+
+						&::first-letter {
+							text-transform: capitalize;
+						}
+					}
+				}
+			}
+
+		}
+	}
+}

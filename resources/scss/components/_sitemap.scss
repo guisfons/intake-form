@@ -1,0 +1,26 @@
+.sitemap-wrapper {
+	padding-left: 20px;
+
+	&.scroll {
+		max-height: 500px;
+		overflow-y: auto;
+	}
+
+	&--services-list-wrapper {
+		padding-left: 26px;
+		margin      : 16px 0;
+	}
+
+	&--sub-services-list-wrapper {
+		padding-left: 30px;
+	}
+
+	&__item {
+		text-align   : left;
+		margin-bottom: 7px;
+	}
+
+	&__service-item {
+		margin: 12px 0;
+	}
+}

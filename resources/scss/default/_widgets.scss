@@ -1,0 +1,127 @@
+/* ------------------------------------------------------------ *\
+	Widgets
+\* ------------------------------------------------------------ */
+
+.widgets {
+	list-style: none;
+	display   : flex;
+	flex-wrap : wrap;
+	margin    : -10px -20px;
+
+	@include breakpoint-down(mobile) {
+		margin: 0;
+	}
+
+	>li {
+		width  : 50%;
+		padding: 10px 20px;
+
+		@include breakpoint-down(mobile) {
+			width  : 100%;
+			padding: 10px 0;
+		}
+	}
+}
+
+/* ------------------------------------------------------------ *\
+	Widget
+\* ------------------------------------------------------------ */
+
+.widget {
+	margin-bottom: 15px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+
+	>ul {
+		list-style: none outside none;
+		margin    : 0;
+	}
+
+	>ul li {
+		padding: 5px 0;
+	}
+
+	>ul a {
+		text-decoration: none;
+		border-bottom  : 1px solid transparent;
+
+		&:hover {
+			border-bottom-color: $c-base;
+			color              : $c-base;
+		}
+	}
+}
+
+/* widget_calendar */
+
+.widget_calendar {
+	table {
+		width          : 100%;
+		border-spacing : 0;
+		border-collapse: collapse;
+		text-align     : center;
+	}
+
+	td,
+	th {
+		padding: 5px;
+		border : 1px solid #000;
+	}
+
+	caption {
+		padding    : 12px;
+		font-weight: bold;
+	}
+
+	tfoot {
+		font-weight: bold;
+	}
+}
+
+/* widget_rss */
+
+.widget_rss {
+	.rsswidget {
+		vertical-align: middle;
+	}
+
+	.rsswidget img {
+		float : left;
+		margin: 5px 8px 0 0;
+	}
+}
+
+/* widget_categories */
+
+.widget_categories {
+	.screen-reader-text {
+		display: none;
+	}
+
+	.post-form {
+		width  : 100%;
+		padding: 5px;
+	}
+}
+
+/* widget_nav_menu */
+
+.widget_nav_menu {
+	ul {
+		list-style: none;
+	}
+
+	ul li {
+		padding: 5px 0;
+	}
+}
+
+/* widget_pages */
+
+.widget_pages {
+	ul ul {
+		padding: 5px 0 0 25px;
+	}
+}

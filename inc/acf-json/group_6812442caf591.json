@@ -1,0 +1,3200 @@
+{
+    "key": "group_6812442caf591",
+    "title": "New Intake Form",
+    "fields": [
+        {
+            "key": "field_6812442cb2949",
+            "label": "<h3>Pre-Call Information<\/h3>",
+            "name": "account_details_group_field",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": "account-details"
+            },
+            "layout": "block",
+            "acfe_seamless_style": 1,
+            "sub_fields": [
+                {
+                    "key": "field_6812442cb2904",
+                    "label": "Client Business Name",
+                    "name": "client_business_name",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_6812442cb4447",
+                    "label": "COS Name",
+                    "name": "account_details_client_onboarding_specialist",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "100",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "choices": {
+                        "57": "Abegail Pancho",
+                        "117": "adam.asher@ollyolly.com",
+                        "13": "Alex Givens",
+                        "84": "Allison Pratt",
+                        "105": "Alyssa Kull",
+                        "59": "Amber Wilson",
+                        "110": "anna.sasil@ollyolly.com",
+                        "128": "arch.engcoy@ollyolly.com",
+                        "55": "Ariane Villamor",
+                        "119": "aubrey.mondero@ollyolly.com",
+                        "74": "Ayoola Ibrahim",
+                        "123": "brian.reyes@ollyolly.com",
+                        "36": "Cameron Paine",
+                        "95": "Chantel Barnes",
+                        "109": "Christian Gumafelix",
+                        "18": "Claudia Perez",
+                        "106": "Connor Shores",
+                        "17": "Copy Team",
+                        "51": "COS Test User",
+                        "19": "Creative Team",
+                        "15": "Cris Incer",
+                        "63": "Daelin Martin",
+                        "116": "den.tesoro@ollyolly.com",
+                        "30": "Design Team",
+                        "65": "Devin Perry",
+                        "112": "ding.estacio@ollyolly.com",
+                        "77": "Elisabeth",
+                        "48": "Ellis Annichine",
+                        "91": "Engineering",
+                        "75": "Felipe Ramirez",
+                        "43": "Form Test",
+                        "126": "gabriel.gardi@ollyolly.com",
+                        "131": "gabriela.torres@ollyolly.com",
+                        "81": "Grace Solinap",
+                        "11": "Grace Caselles",
+                        "135": "guilherme.fonseca",
+                        "58": "Hannah Bailey",
+                        "111": "jenifer.kuadli@ollyolly.com",
+                        "99": "Jenn Felix",
+                        "134": "jennifer.montesclaros@ollyolly.com",
+                        "129": "jheo.castardo@ollyolly.com",
+                        "61": "John Dicto",
+                        "60": "John Pantilanan",
+                        "94": "Jose Dizon",
+                        "85": "Josef Santos",
+                        "114": "karls@ollyolly.com",
+                        "73": "Katherine Aragon",
+                        "124": "kevin.sabado@ollyolly.com",
+                        "78": "Lance Hornbostel",
+                        "10": "Lauren Robinson",
+                        "69": "Leah Bednar",
+                        "37": "Lexi Fontaine",
+                        "113": "luisa@ollyolly.com",
+                        "97": "Madison Livingston",
+                        "80": "Magnolia Afable",
+                        "133": "marc.robinson@ollyolly.com",
+                        "53": "Maria Cruz",
+                        "120": "mariana.salazar@ollyolly.com",
+                        "38": "Mariechris Pasana",
+                        "2": "Mariel Mojares",
+                        "68": "Mason Burdick",
+                        "122": "mason.ziegenfuss@ollyolly.com",
+                        "64": "Matthew Sweeney",
+                        "44": "Natazjah De Jesus",
+                        "130": "paul.sical@ollyolly.com",
+                        "76": "Project Managers",
+                        "79": "Product Dev Admin",
+                        "31": "QA Team",
+                        "104": "Rich Sanger",
+                        "125": "richard.vargas@ollyolly.com",
+                        "14": "Rodrigo Mendieta",
+                        "121": "rox.escolano@ollyolly.com",
+                        "66": "Sam Miller",
+                        "115": "sam.park@ollyolly.com",
+                        "8": "Sam Wieland",
+                        "118": "sean.mongan@ollyolly.com",
+                        "29": "SEO Team",
+                        "41": "Tanner Malmkar",
+                        "86": "Tatiana Bolanos",
+                        "132": "Taylor Summerville",
+                        "82": "Taylor Summerville",
+                        "89": "Timmy Bamidele",
+                        "103": "Victoria Bellorin",
+                        "4": "Web Admin",
+                        "93": "wpengine",
+                        "127": "xius.manalo@ollyolly.com",
+                        "42": "Yasmine Parks"
+                    }
+                },
+                {
+                    "key": "field_6818c6e8ab657",
+                    "label": "Package Type <strong style=\"color: var(--secondary);text-decoration: underline\"><a href=\"https:\/\/docs.google.com\/spreadsheets\/d\/1qfiUDYxKWNib8ZoxgZXY8MIoZNxMAodKEtPIUFsRyhU\/edit?usp=sharing\" target=\"_blank\">Olly Olly Packages (Agency + Saas)<\/a><\/strong>",
+                    "name": "package_type",
+                    "aria-label": "",
+                    "type": "select",
+                    "instructions": "*Elite Package requires a 6 month committment",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Core": "Core",
+                        "Elite": "Elite",
+                        "Elite Expansion": "Elite Expansion",
+                        "Growth Essentials": "Growth Essentials",
+                        "Pro": "Pro",
+                        "Real Estate": "Real Estate",
+                        "Strategic Advantage": "Strategic Advantage"
+                    },
+                    "default_value": false,
+                    "return_format": "value",
+                    "multiple": 0,
+                    "allow_null": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "placeholder": "",
+                    "allow_custom": 0,
+                    "search_placeholder": ""
+                },
+                {
+                    "key": "field_6812442cb457b",
+                    "label": "",
+                    "name": "",
+                    "aria-label": "",
+                    "type": "message",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_6812442cb453d",
+                                "operator": "==",
+                                "value": "Yes"
+                            }
+                        ],
+                        [
+                            {
+                                "field": "field_6818c6e8ab657",
+                                "operator": "==",
+                                "value": "Elite"
+                            }
+                        ],
+                        [
+                            {
+                                "field": "field_6818c6e8ab657",
+                                "operator": "==",
+                                "value": "Elite Expansion"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "<div class=\"warning-notice\"><p><span style=\"color: red;\">*<\/span>Elite websites contain +1000 words per page. The more information you provide about each service the better so our copywriters can create personalized content that adds value to the website.<\/p><\/div>",
+                    "new_lines": "wpautop",
+                    "esc_html": 0
+                }
+            ],
+            "acfe_group_modal": 0,
+            "acfe_group_modal_close": 0,
+            "acfe_group_modal_button": "",
+            "acfe_group_modal_size": "large"
+        },
+        {
+            "key": "field_6812442cb2987",
+            "label": "<h3>Getting to Know the Client\/ Business<\/h3>",
+            "name": "introduction_group_field",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": "introduction"
+            },
+            "layout": "block",
+            "acfe_seamless_style": 1,
+            "sub_fields": [
+                {
+                    "key": "field_6812442cba0c8",
+                    "label": "",
+                    "name": "",
+                    "aria-label": "",
+                    "type": "message",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "<article style=\"background-color: #2f2f67; color: #f1c232; padding: 20px; border-radius: 10px;\">\r\n  <h5 style=\"color: white;\">Introduce Yourself<\/h5>\r\n  <p>“Hi Mr. Customer! My name is <strong>X<\/strong> and I’m your Onboarding Specialist from Olly Olly. How’s your day going so far?”<\/p>\r\n  <p><em>* build rapport \/ small talk *<\/em><\/p>\r\n\r\n  <h5 style=\"color: white;\">Set the Stage<\/h5>\r\n  <p>“Well great, let’s jump in! I will be your onboarding specialist and point of contact for the next 3 weeks. After we get your campaign set up for success and launched, I will be introducing you to your dedicated account manager.<\/p>\r\n  <p><strong>This specialist will be with you for the lifetime of your campaign. Their responsibility is to advise on best-in-class digital strategies and assist in any tweaks or updates to your campaign you may have down the road.<\/strong>”<\/p>\r\n\r\n  <h5 style=\"color: white;\">Set the Agenda - Campaign Setup | App | Website | Housekeeping<\/h5>\r\n  <p>“On this 45 min call, we are going to be discussing the important details our team needs in order to set your campaign up for success here at Olly Olly. I’m <strong>SO<\/strong> excited to start working with you.<\/p>\r\n  <p>Today, we are going to review your Google Business Profile, ensure you’re set up in the Olly Olly app so you can begin reaping the benefits and value it brings, review the initial build of your website, and close it out with some housekeeping and next steps.”<\/p>\r\n\r\n  <h5 style=\"color: white;\">Our Goal<\/h5>\r\n  <p>“Our goal is to make sure you see the best results possible on Google. Google is all about trust so it can take anywhere from 4–6 months to build that trust with Google and start seeing results.<\/p>\r\n  <p>In that time, our team will be actively optimizing your website and campaign to ensure you not only get results, but you get quality results.<\/p>\r\n  <p>In the meantime, there’s a lot that you can do on your end to fast-track those quality results that we will get to shortly!<\/p>\r\n\r\n  <h5 style=\"color: white;\">Build Rapport<\/h5>\r\n  <p>“Before we dig in, I’d love to get to know a little more about you and your business! In talking with the SALES REP, they let me know X, X and X. I would love to hear a little more from you!”<\/p>\r\n<\/article>",
+                    "new_lines": "wpautop",
+                    "esc_html": 0
+                },
+                {
+                    "key": "field_6813ecfabf56f",
+                    "label": "What got you started in your industry and how long have you been in business for?",
+                    "name": "what_got_you_started_in_your_industry_and_how_long_have_you_been_in_business_for",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "acfe_textarea_code": 0,
+                    "maxlength": "",
+                    "rows": "",
+                    "placeholder": "",
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_6813ed3cbf570",
+                    "label": "How does your business make a difference or impact your customers?",
+                    "name": "how_does_your_business_make_a_difference_or_impact_your_customers",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "acfe_textarea_code": 0,
+                    "maxlength": "",
+                    "rows": "",
+                    "placeholder": "",
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_6813ed4dbf571",
+                    "label": "What really sets you apart from your competition?",
+                    "name": "what_really_sets_you_apart_from_your_competition",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "acfe_textarea_code": 0,
+                    "maxlength": "",
+                    "rows": "",
+                    "placeholder": "",
+                    "new_lines": ""
+                }
+            ],
+            "acfe_group_modal": 0,
+            "acfe_group_modal_close": 0,
+            "acfe_group_modal_button": "",
+            "acfe_group_modal_size": "large"
+        },
+        {
+            "key": "field_6812442cb29c4",
+            "label": "<h3>Google Business Profile<\/h3>",
+            "name": "business_details_group",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": "google-business-profile"
+            },
+            "layout": "block",
+            "acfe_seamless_style": 0,
+            "acfe_group_modal": 0,
+            "sub_fields": [
+                {
+                    "key": "field_6814057005dd7",
+                    "label": "",
+                    "name": "",
+                    "aria-label": "",
+                    "type": "message",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "<article style=\"background-color: #2f2f67; color: #f1c232; padding: 20px; border-radius: 10px;\">\r\n    <p>Great to hear! Earlier I mentioned that there were some things you could do on your end to fast track your results. I’ve done a little digging and see that you DO or DO NOT have a Google Business Profile. Your Google Business Profile, which I may refer to a few times as a GBP, is CRUCIAL in dominating your local Google results. I’m sure you’re seen one before. In looking up a business on Google, there is a “card” that appears on the right side of your screen - that is a Google Business Profile. It’s like an online business card for your business! It contains important details such as your hours of operation, links to your website, showcases photos of your work, and - most importantly - it’s a place for your customers to leave positive reviews about their experience with your business! Reviews are SO important to your online success.<\/p>\r\n    <p>Your GBP is responsible for over 30% of your ranking power! What my team wants to do is 1. Make sure we have access\/ create this for you and 2, make sure that it is complete and optimized. By doing this, customers are 70% more likely to visit and 50% more likely to consider your company.<\/p>\r\n<\/article>",
+                    "new_lines": "wpautop",
+                    "esc_html": 0
+                },
+                {
+                    "key": "field_6813f05cbf572",
+                    "label": "Did you walk the client through obtaining GBP access and\/or creating a GBP?",
+                    "name": "did_you_walk_the_client_through_obtaining_gbp_access_andor_creating_a_gbp",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Yes": "Yes",
+                        "No": "No"
+                    },
+                    "default_value": "",
+                    "return_format": "value",
+                    "allow_null": 1,
+                    "other_choice": 0,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_6813f065bf573",
+                    "label": "Please share a link to their GBP",
+                    "name": "please_share_a_link_to_their_gbp:",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "acfe_textarea_code": 0,
+                    "maxlength": "",
+                    "rows": "",
+                    "placeholder": "",
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_6813f076bf574",
+                    "label": "Are there any duplicate listings?",
+                    "name": "are_there_any_duplicate_listings",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Yes": "Yes",
+                        "No": "No"
+                    },
+                    "default_value": "",
+                    "return_format": "value",
+                    "allow_null": 1,
+                    "other_choice": 0,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_681ccde168b04",
+                    "label": "Please provide a link below",
+                    "name": "please_provide_a_link_below",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_6813f076bf574",
+                                "operator": "==contains",
+                                "value": "Yes"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_6813f080bf575",
+                    "label": "GBP Name:",
+                    "name": "gbp_name:",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                }
+            ],
+            "acfe_group_modal_close": 0,
+            "acfe_group_modal_button": "",
+            "acfe_group_modal_size": "large"
+        },
+        {
+            "key": "field_6812442cb2a01",
+            "label": "<h3>Olly Olly App + Connections<\/h3>",
+            "name": "ollyolly_app_connections",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": "ollyolly-app"
+            },
+            "layout": "block",
+            "acfe_seamless_style": 1,
+            "sub_fields": [
+                {
+                    "key": "field_681405b705dd8",
+                    "label": "",
+                    "name": "",
+                    "aria-label": "",
+                    "type": "message",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "<article style=\"background-color: #2f2f67; color: #f1c232; padding: 20px; border-radius: 10px;\">\r\n    <p>Amazing! Now that we have that piece of the puzzle, I can introduce you to our Olly Olly app. Utilizing our app is imperative in skyrocketing those online results! Within the app, you can request and respond to your GBP reviews utilizing AI, upload and schedule posts for your GBP and Social Media profiles, and you will have access to your leads and campaign results - tracking your progress every step of the way.  Before we jump in, I want to first ensure that you already received an invite for the Olly Olly app.<\/p>\r\n<\/article>",
+                    "new_lines": "wpautop",
+                    "esc_html": 0
+                },
+                {
+                    "key": "field_6812442cd4aa4",
+                    "label": "Did the client log into the app with you on the phone?",
+                    "name": "did_the_client_log_into_the_app_with_you_on_the_phone",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Yes": "Yes",
+                        "No": "No"
+                    },
+                    "default_value": "",
+                    "return_format": "value",
+                    "allow_null": 1,
+                    "other_choice": 0,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_6813f1acbf576",
+                    "label": "Were you able to connect their GBP to the app?",
+                    "name": "were_you_able_to_connect_their_gbp_to_the_app",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Yes": "Yes",
+                        "No": "No"
+                    },
+                    "default_value": "",
+                    "return_format": "value",
+                    "allow_null": 1,
+                    "other_choice": 0,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_6814062205dd9",
+                    "label": "",
+                    "name": "",
+                    "aria-label": "",
+                    "type": "message",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "<article style=\"background-color: #2f2f67; color: #f1c232; padding: 20px; border-radius: 10px;\">\r\n    <p>Social media is a great way to get in front of potential clients and showcase your best work. Social media is  no longer just for scrolling – it’s where customers search for trusted services, read reviews and make decisions. After our call, I’ll share a link to our SEO Guide if you’d like to take a look and read a little more about what we do, but in the meantime I would love to get your SM profile attached to our app so you can start utilizing the scheduling feature. <mark>I did a little research and found X profiles. (If the client does not have a SM profile, walk them through setting this up)<\/mark><\/p>\r\n<\/article>",
+                    "new_lines": "wpautop",
+                    "esc_html": 0
+                },
+                {
+                    "key": "field_6813f1b3bf577",
+                    "label": "Were you able to link the client’s SM account to the app?",
+                    "name": "were_you_able_to_link_the_client’s_sm_account_to_the_app",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Yes": "Yes",
+                        "No": "No"
+                    },
+                    "default_value": "",
+                    "return_format": "value",
+                    "allow_null": 1,
+                    "other_choice": 0,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                }
+            ],
+            "acfe_group_modal": 0,
+            "acfe_group_modal_close": 0,
+            "acfe_group_modal_button": "",
+            "acfe_group_modal_size": "large"
+        },
+        {
+            "key": "field_6812442cb2a3e",
+            "label": "<h3>Website Service Pages + Build<\/h3>",
+            "name": "website_service_pages",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": "website-services-pages"
+            },
+            "layout": "block",
+            "acfe_seamless_style": 0,
+            "acfe_group_modal": 0,
+            "sub_fields": [
+                {
+                    "key": "field_6814067605dda",
+                    "label": "",
+                    "name": "",
+                    "aria-label": "",
+                    "type": "message",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "<article style=\"background-color: #2f2f67; color: #f1c232; padding: 20px; border-radius: 10px;\">\r\n    <p>Fantastic! Now that we have you all set up for success in the Olly Olly App, I’d love to chat about your website. <\/p>\r\n\r\n    <h5>IF THE CLIENT <strong>HAS<\/strong> AN EXISTING WEBSITE<\/h5>\r\n    <p>X from sales shared your previous website with me. In looking through this website, I believe we can migrate over a few existing pages, but I’d love to use this as a foundation to build on. We want to ensure your website is set up for success on Google. <\/p>\r\n<\/article>",
+                    "new_lines": "wpautop",
+                    "esc_html": 0
+                },
+                {
+                    "key": "field_6812442d408b2",
+                    "label": "What pages are we migrating over from the client’s current website, if any?",
+                    "name": "design_group_current_previous_site",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "Remember, YOU are the expert here. Advise the client what will have the best impact on their online presence.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "100",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "acfe_textarea_code": 0,
+                    "maxlength": "",
+                    "rows": "",
+                    "placeholder": "",
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_681406fc05ddb",
+                    "label": "",
+                    "name": "",
+                    "aria-label": "",
+                    "type": "message",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "<article style=\"background-color: #2f2f67; color: #f1c232; padding: 20px; border-radius: 10px;\">\r\n    <h5>IF THE CLIENT DOES <strong>NOT<\/strong> HAVE AN EXISTING WEBSITE<\/h5>\r\n    <p>X from sales let me know that you do not have a previous website. I’m so excited to be able to get this set up for you!<\/p>\r\n    <p>It is imperative that we build your website in a way that aligns with Google's best practices. We want to make sure that the services we feature are services that your potential clients are searching for! Speaking of potential clients, what would you say your target audience is?<\/p>\r\n<\/article>",
+                    "new_lines": "wpautop",
+                    "esc_html": 0
+                },
+                {
+                    "key": "field_681404cb05dd6",
+                    "label": "What is the client’s target audience? Who is their ideal client?",
+                    "name": "what_is_the_client’s_target_audience",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "acfe_textarea_code": 0,
+                    "maxlength": "",
+                    "rows": "",
+                    "placeholder": "",
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_6814071705ddc",
+                    "label": "",
+                    "name": "",
+                    "aria-label": "",
+                    "type": "message",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "<article style=\"background-color: #2f2f67; color: #f1c232; padding: 20px; border-radius: 10px;\">\r\n    <p>Great! I know you are in <strong>X<\/strong> industry. Here are a few suggestions of services pages I think we should build out.<\/p>\r\n<\/article>",
+                    "new_lines": "wpautop",
+                    "esc_html": 0
+                },
+                {
+                    "key": "field_6814076505ddd",
+                    "label": "What industry is the client in? <strong style=\"color: var(--secondary);text-decoration: underline;\"><a href=\"https:\/\/docs.google.com\/spreadsheets\/d\/1v5Hl2lIhGQf5LLkZ7RNZEOzZST8ple5gQiW1xi7I3YQ\/edit?usp=sharing\" target=\"_blank\">Industry Service Page Reference Guide<\/a><\/strong>",
+                    "name": "what_industry_is_the_client_in",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "Even if the client has an existing website, please suggest new service pages for the client based on the Industry Service Page Reference Guide.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_6814089273ddd",
+                    "label": "What are the clients top 4-6 services? Reminder to reference the Industry SP Ref. Guide.",
+                    "name": "what_are_the_clients_top_4-6_services_reminder_to_reference_the_industry_sp_ref_guide_",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_6812442cb453d",
+                                "operator": "==contains",
+                                "value": "No"
+                            }
+                        ],
+                        [
+                            {
+                                "field": "field_6818c6e8ab657",
+                                "operator": "!=",
+                                "value": "Elite"
+                            },
+                            {
+                                "field": "field_6818c6e8ab657",
+                                "operator": "!=",
+                                "value": "Elite Expansion"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "acfe_repeater_stylised_button": 1,
+                    "layout": "block",
+                    "pagination": 0,
+                    "min": 1,
+                    "max": 6,
+                    "collapsed": "",
+                    "button_label": "Add Row",
+                    "rows_per_page": 20,
+                    "sub_fields": [
+                        {
+                            "key": "field_681408a573dde",
+                            "label": "Service",
+                            "name": "service",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_6814089273ddd"
+                        },
+                        {
+                            "key": "field_68190128ec409",
+                            "label": "Is this a parent page with services?",
+                            "name": "is_this_a_parent_page_with_services",
+                            "aria-label": "",
+                            "type": "true_false",
+                            "instructions": "If yes, then the service title will act as the parent page, and the services will be added below. Remember to include each service details.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "",
+                            "default_value": 0,
+                            "ui_on_text": "",
+                            "ui_off_text": "",
+                            "ui": 1,
+                            "parent_repeater": "field_6814089273ddd"
+                        },
+                        {
+                            "key": "field_6838a9cebfbc5",
+                            "label": "Description",
+                            "name": "description",
+                            "aria-label": "",
+                            "type": "textarea",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_68190128ec409",
+                                        "operator": "!=",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "acfe_textarea_code": 0,
+                            "maxlength": "",
+                            "rows": "",
+                            "placeholder": "",
+                            "new_lines": "",
+                            "parent_repeater": "field_6814089273ddd"
+                        },
+                        {
+                            "key": "field_6838a9d1bfbc6",
+                            "label": "What type of materials\/ brands does the client work with?",
+                            "name": "what_type_of_materials_brands_does_the_client_work_with",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_68190128ec409",
+                                        "operator": "!=",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_6814089273ddd"
+                        },
+                        {
+                            "key": "field_6838a9d5bfbc7",
+                            "label": "Is there anything you don’t do or do not want to mention within these services?",
+                            "name": "is_there_anything_you_don’t_do_or_do_not_want_to_mention_within_these_services",
+                            "aria-label": "",
+                            "type": "textarea",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_68190128ec409",
+                                        "operator": "!=",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "acfe_textarea_code": 0,
+                            "maxlength": "",
+                            "rows": 4,
+                            "placeholder": "",
+                            "new_lines": "",
+                            "parent_repeater": "field_6814089273ddd"
+                        },
+                        {
+                            "key": "field_6838a9d8bfbc8",
+                            "label": "What should the customer know about each service?",
+                            "name": "what_should_the_customer_know_about_each_service",
+                            "aria-label": "",
+                            "type": "textarea",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_68190128ec409",
+                                        "operator": "!=",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "acfe_textarea_code": 0,
+                            "maxlength": "",
+                            "rows": 4,
+                            "placeholder": "",
+                            "new_lines": "",
+                            "parent_repeater": "field_6814089273ddd"
+                        },
+                        {
+                            "key": "field_681908a16f249",
+                            "label": "Services",
+                            "name": "sub_services",
+                            "aria-label": "",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_68190128ec409",
+                                        "operator": "==",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "acfe_repeater_stylised_button": 1,
+                            "layout": "block",
+                            "min": 1,
+                            "max": 0,
+                            "collapsed": "",
+                            "button_label": "Add Row",
+                            "rows_per_page": 20,
+                            "sub_fields": [
+                                {
+                                    "key": "field_68230fe642468",
+                                    "label": "Title",
+                                    "name": "title",
+                                    "aria-label": "",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "parent_repeater": "field_681908a16f249"
+                                },
+                                {
+                                    "key": "field_68230feb42469",
+                                    "label": "Description",
+                                    "name": "description",
+                                    "aria-label": "",
+                                    "type": "textarea",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "acfe_textarea_code": 0,
+                                    "maxlength": "",
+                                    "rows": "",
+                                    "placeholder": "",
+                                    "new_lines": "",
+                                    "parent_repeater": "field_681908a16f249"
+                                },
+                                {
+                                    "key": "field_681408f473ddf",
+                                    "label": "What type of materials\/ brands does the client work with?",
+                                    "name": "what_type_of_materials_brands_does_the_client_work_with",
+                                    "aria-label": "",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "parent_repeater": "field_681908a16f249"
+                                },
+                                {
+                                    "key": "field_681408fd73de0",
+                                    "label": "Is there anything you don’t do or do not want to mention within these services?",
+                                    "name": "is_there_anything_you_don’t_do_or_do_not_want_to_mention_within_these_services",
+                                    "aria-label": "",
+                                    "type": "textarea",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "acfe_textarea_code": 0,
+                                    "maxlength": "",
+                                    "rows": 4,
+                                    "placeholder": "",
+                                    "new_lines": "",
+                                    "parent_repeater": "field_681908a16f249"
+                                },
+                                {
+                                    "key": "field_6814090573de1",
+                                    "label": "What should the customer know about each service?",
+                                    "name": "what_should_the_customer_know_about_each_service",
+                                    "aria-label": "",
+                                    "type": "textarea",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "acfe_textarea_code": 0,
+                                    "maxlength": "",
+                                    "rows": 4,
+                                    "placeholder": "",
+                                    "new_lines": "",
+                                    "parent_repeater": "field_681908a16f249"
+                                }
+                            ],
+                            "parent_repeater": "field_6814089273ddd"
+                        }
+                    ]
+                },
+                {
+                    "key": "field_681a24e7bc6ff",
+                    "label": "What are the clients top 10-12 services? Reminder to reference the Industry SP Ref. Guide.",
+                    "name": "what_are_the_clients_top_10-12_services_reminder_to_reference_the_industry_sp_ref_guide",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_6812442cb453d",
+                                "operator": "==contains",
+                                "value": "Yes"
+                            }
+                        ],
+                        [
+                            {
+                                "field": "field_6818c6e8ab657",
+                                "operator": "==",
+                                "value": "Elite"
+                            }
+                        ],
+                        [
+                            {
+                                "field": "field_6818c6e8ab657",
+                                "operator": "==",
+                                "value": "Elite Expansion"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "acfe_repeater_stylised_button": 1,
+                    "layout": "block",
+                    "pagination": 0,
+                    "min": 1,
+                    "max": 12,
+                    "collapsed": "",
+                    "button_label": "Add Row",
+                    "rows_per_page": 20,
+                    "sub_fields": [
+                        {
+                            "key": "field_681a24e8bc700",
+                            "label": "Service",
+                            "name": "service",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_681a24e7bc6ff"
+                        },
+                        {
+                            "key": "field_681a24e8bc701",
+                            "label": "Is this a parent page with services?",
+                            "name": "is_this_a_parent_page_with_services",
+                            "aria-label": "",
+                            "type": "true_false",
+                            "instructions": "If yes, then the service title will act as the parent page, and the services will be added below. Remember to include each service details.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "",
+                            "default_value": 0,
+                            "ui_on_text": "",
+                            "ui_off_text": "",
+                            "ui": 1,
+                            "parent_repeater": "field_681a24e7bc6ff"
+                        },
+                        {
+                            "key": "field_6838aa77bfbc9",
+                            "label": "Description",
+                            "name": "description",
+                            "aria-label": "",
+                            "type": "textarea",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_681a24e8bc701",
+                                        "operator": "!=",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "acfe_textarea_code": 0,
+                            "maxlength": "",
+                            "rows": "",
+                            "placeholder": "",
+                            "new_lines": "",
+                            "parent_repeater": "field_681a24e7bc6ff"
+                        },
+                        {
+                            "key": "field_6838aaacbfbca",
+                            "label": "What type of materials\/ brands does the client work with?",
+                            "name": "description_copy",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_681a24e8bc701",
+                                        "operator": "!=",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_681a24e7bc6ff"
+                        },
+                        {
+                            "key": "field_6838aaadbfbcb",
+                            "label": "Is there anything you don’t do or do not want to mention within these services?",
+                            "name": "is_there_anything_you_don’t_do_or_do_not_want_to_mention_within_these_services",
+                            "aria-label": "",
+                            "type": "textarea",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_681a24e8bc701",
+                                        "operator": "!=",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "acfe_textarea_code": 0,
+                            "maxlength": "",
+                            "rows": "",
+                            "placeholder": "",
+                            "new_lines": "",
+                            "parent_repeater": "field_681a24e7bc6ff"
+                        },
+                        {
+                            "key": "field_6838aaaebfbcc",
+                            "label": "What should the customer know about each service?",
+                            "name": "what_should_the_customer_know_about_each_service",
+                            "aria-label": "",
+                            "type": "textarea",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_681a24e8bc701",
+                                        "operator": "!=",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "acfe_textarea_code": 0,
+                            "maxlength": "",
+                            "rows": "",
+                            "placeholder": "",
+                            "new_lines": "",
+                            "parent_repeater": "field_681a24e7bc6ff"
+                        },
+                        {
+                            "key": "field_681a24e8bc702",
+                            "label": "Services",
+                            "name": "sub_services",
+                            "aria-label": "",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_681a24e8bc701",
+                                        "operator": "==",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "acfe_repeater_stylised_button": 1,
+                            "layout": "block",
+                            "min": 1,
+                            "max": 0,
+                            "collapsed": "",
+                            "button_label": "Add Row",
+                            "rows_per_page": 20,
+                            "sub_fields": [
+                                {
+                                    "key": "field_682310a7a28e7",
+                                    "label": "Title",
+                                    "name": "title",
+                                    "aria-label": "",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "parent_repeater": "field_681a24e8bc702"
+                                },
+                                {
+                                    "key": "field_682310a7a28e8",
+                                    "label": "Description",
+                                    "name": "description",
+                                    "aria-label": "",
+                                    "type": "textarea",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "acfe_textarea_code": 0,
+                                    "maxlength": "",
+                                    "rows": "",
+                                    "placeholder": "",
+                                    "new_lines": "",
+                                    "parent_repeater": "field_681a24e8bc702"
+                                },
+                                {
+                                    "key": "field_681a24e8bc703",
+                                    "label": "What type of materials\/ brands does the client work with?",
+                                    "name": "what_type_of_materials_brands_does_the_client_work_with",
+                                    "aria-label": "",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "parent_repeater": "field_681a24e8bc702"
+                                },
+                                {
+                                    "key": "field_681a24e8bc704",
+                                    "label": "Is there anything you don’t do or do not want to mention within these services?",
+                                    "name": "is_there_anything_you_don’t_do_or_do_not_want_to_mention_within_these_services",
+                                    "aria-label": "",
+                                    "type": "textarea",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "acfe_textarea_code": 0,
+                                    "maxlength": "",
+                                    "rows": 4,
+                                    "placeholder": "",
+                                    "new_lines": "",
+                                    "parent_repeater": "field_681a24e8bc702"
+                                },
+                                {
+                                    "key": "field_681a24e8bc705",
+                                    "label": "What should the customer know about each service?",
+                                    "name": "what_should_the_customer_know_about_each_service",
+                                    "aria-label": "",
+                                    "type": "textarea",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "acfe_textarea_code": 0,
+                                    "maxlength": "",
+                                    "rows": 4,
+                                    "placeholder": "",
+                                    "new_lines": "",
+                                    "parent_repeater": "field_681a24e8bc702"
+                                }
+                            ],
+                            "parent_repeater": "field_681a24e7bc6ff"
+                        }
+                    ]
+                },
+                {
+                    "key": "field_6814095173de2",
+                    "label": "What’s your biggest money maker? Top service?",
+                    "name": "what’s_your_biggest_money_maker_top_service",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "Would you like your homepage to focus on this specific top service?",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "acfe_textarea_code": 0,
+                    "maxlength": "",
+                    "rows": "",
+                    "placeholder": "",
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_6814097773de3",
+                    "label": "Are there any seasonal services or promotions we should highlight? (Visibility in key business periods)",
+                    "name": "are_there_any_seasonal_services_or_promotions_we_should_highlight_visibility_in_key_business_periods",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_681409e173de4",
+                    "label": "Does the client want to include a specific town name or surrounding areas relevant to the business? If there are any regions or neighborhoods they do a lot of work in, please make sure to list those as well.",
+                    "name": "does_the_client_want_to_include_a_specific_town_name_or_surrounding_areas_relevant_to_the_business_if_there_are_any_regions_or_neighborhoods_they_do_a_lot_of_work_in_please_make_sure_to_list_those_as_well_",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "acfe_textarea_code": 0,
+                    "maxlength": "",
+                    "rows": "",
+                    "placeholder": "",
+                    "new_lines": ""
+                }
+            ],
+            "acfe_group_modal_close": 0,
+            "acfe_group_modal_button": "",
+            "acfe_group_modal_size": "large"
+        },
+        {
+            "key": "field_6812442cb2a7c",
+            "label": "<h3>Website Personalization<\/h3>",
+            "name": "website_personalization",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": "plugins-other-tools"
+            },
+            "layout": "block",
+            "acfe_seamless_style": 0,
+            "acfe_group_modal": 0,
+            "sub_fields": [
+                {
+                    "key": "field_681826884712d",
+                    "label": "",
+                    "name": "",
+                    "aria-label": "",
+                    "type": "message",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "<article style=\"background-color: #2f2f67; color: #f1c232; padding: 20px; border-radius: 10px;\">\r\n    <p>I feel like we have a really great foundation built that aligns with Google’s best practices. That being said, we now want to put that personal touch on your website and build trust with potential clients. One of the best ways to do this is having a great About Us page and making sure the website aligns with your tone and branding. <\/p>\r\n<\/article>",
+                    "new_lines": "wpautop",
+                    "esc_html": 0
+                },
+                {
+                    "key": "field_6818e3e2803c1",
+                    "label": "Does the client have an about us page we can migrate over?",
+                    "name": "does_the_client_have_an_about_us_page_we_can_migrate_over",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Yes": "Yes",
+                        "No": "No"
+                    },
+                    "default_value": "",
+                    "return_format": "value",
+                    "allow_null": 1,
+                    "other_choice": 0,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_681cced668b05",
+                    "label": "How many people work at your company?",
+                    "name": "how_many_people_work_at_your_company",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_6818e3e2803c1",
+                                "operator": "==contains",
+                                "value": "No"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "acfe_textarea_code": 0,
+                    "maxlength": "",
+                    "rows": 4,
+                    "placeholder": "",
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_681ccf1968b06",
+                    "label": "When did the company get started?",
+                    "name": "when_did_the_company_get_started",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_6818e3e2803c1",
+                                "operator": "==contains",
+                                "value": "No"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "acfe_textarea_code": 0,
+                    "maxlength": "",
+                    "rows": 4,
+                    "placeholder": "",
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_681ccf2468b07",
+                    "label": "What kind of problems do your customers have that you solve?",
+                    "name": "what_kind_of_problems_do_your_customers_have_that_you_solve",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_6818e3e2803c1",
+                                "operator": "==contains",
+                                "value": "No"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "acfe_textarea_code": 0,
+                    "maxlength": "",
+                    "rows": 4,
+                    "placeholder": "",
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_681ccf3768b08",
+                    "label": "What kind of problem or gap in the market motivated you to create your business?",
+                    "name": "what_kind_of_problem_or_gap_in_the_market_motivated_you_to_create_your_business",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_6818e3e2803c1",
+                                "operator": "==contains",
+                                "value": "No"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "acfe_textarea_code": 0,
+                    "maxlength": "",
+                    "rows": 4,
+                    "placeholder": "",
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_681ccf4168b09",
+                    "label": "Do you have headshots of your team members\/ bios you’d like to include?",
+                    "name": "do_you_have_headshots_of_your_team_members_bios_you’d_like_to_include",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_6818e3e2803c1",
+                                "operator": "==contains",
+                                "value": "No"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "acfe_textarea_code": 0,
+                    "maxlength": "",
+                    "rows": 4,
+                    "placeholder": "",
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_6818e3f6803c2",
+                    "label": "",
+                    "name": "",
+                    "aria-label": "",
+                    "type": "message",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "<article style=\"background-color: #2f2f67; color: #f1c232; padding: 20px; border-radius: 10px;\">\r\n    <p>Now I just need a few more details in order to make sure we’re aligning your website with your tone and highlighting your key achievements. <\/p>\r\n<\/article>",
+                    "new_lines": "wpautop",
+                    "esc_html": 0
+                },
+                {
+                    "key": "field_6818e40a803c3",
+                    "label": "Do you have notable partnerships, certifications, licenses or community involvement that should be featured?",
+                    "name": "do_you_have_notable_partnerships_certifications_licenses_or_community_involvement_that_should_be_featured",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Yes": "Yes",
+                        "No": "No"
+                    },
+                    "default_value": "",
+                    "return_format": "value",
+                    "allow_null": 1,
+                    "other_choice": 0,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_6818e434803c5",
+                    "label": "Please add all the details",
+                    "name": "please_add_all_the_details",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_6818e40a803c3",
+                                "operator": "==contains",
+                                "value": "Yes"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "acfe_textarea_code": 0,
+                    "maxlength": "",
+                    "rows": "",
+                    "placeholder": "",
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_6818e4e3803c9",
+                    "label": "If your business had a personality, how would you want it to come across on your website? Think about how you talk to customers in person—should your website match that? Would you want it to sound:",
+                    "name": "if_your_business_had_a_personality_how_would_you_want_it_to_come_across_on_your_website_think_about_how_you_talk_to_customers_in_person—should_your_website_match_that_would_you_want_it_to_sound:",
+                    "aria-label": "",
+                    "type": "checkbox",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Professional & Trustworthy": "Professional & Trustworthy",
+                        "Friendly & Approachable": "Friendly & Approachable",
+                        "Casual & Relaxed": "Casual & Relaxed",
+                        "Community-Focused & Local": "Community-Focused & Local",
+                        "Modern & Innovative": "Modern & Innovative"
+                    },
+                    "default_value": [],
+                    "return_format": "value",
+                    "allow_custom": 0,
+                    "layout": "vertical",
+                    "toggle": 0,
+                    "save_custom": 0,
+                    "custom_choice_button_text": "Add new choice"
+                },
+                {
+                    "key": "field_6818e50b803ca",
+                    "label": "Are there any words, phrases, or messaging styles you want us to avoid? (For brand consistency)",
+                    "name": "are_there_any_words_phrases_or_messaging_styles_you_want_us_to_avoid_for_brand_consistency",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "acfe_textarea_code": 0,
+                    "maxlength": "",
+                    "rows": "",
+                    "placeholder": "",
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_6818e50f803cb",
+                    "label": "What’s the best way for customers to reach you? (Call, text, email, website form?)",
+                    "name": "what’s_the_best_way_for_customers_to_reach_you_call_text_email_website_form",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "acfe_textarea_code": 0,
+                    "maxlength": "",
+                    "rows": "",
+                    "placeholder": "",
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_6818e51e803cc",
+                    "label": "",
+                    "name": "",
+                    "aria-label": "",
+                    "type": "message",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "<article style=\"background-color: #2f2f67; color: #f1c232; padding: 20px; border-radius: 10px;\">\r\n    <p>Last but not least, we’ve got to showcase all of this beautiful work that you’ve done! I’d love to create a gallery page. You can upload all of your photos to the app for our teams to use on your website.<\/p><br>\r\n<em>(If the client was unable to get into the app, we can share a Google Drive where they can add any photos.)<\/em>\r\n<\/article>",
+                    "new_lines": "wpautop",
+                    "esc_html": 0
+                },
+                {
+                    "key": "field_6818e54f803cd",
+                    "label": "Aside from the About Us, Contact, Areas We Serve, and Gallery pages, are there any other non-SEO pages the client would like to include?",
+                    "name": "aside_from_the_about_us_contact_areas_we_serve_and_gallery_pages_are_there_any_other_non-seo_pages_the_client_would_like_to_include",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Yes": "Yes",
+                        "No": "No"
+                    },
+                    "default_value": "",
+                    "return_format": "value",
+                    "allow_null": 1,
+                    "other_choice": 0,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_6818e5e0803ce",
+                    "label": "Pages",
+                    "name": "pages",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_6818e54f803cd",
+                                "operator": "!=",
+                                "value": "No"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "acfe_repeater_stylised_button": 1,
+                    "layout": "block",
+                    "pagination": 0,
+                    "min": 1,
+                    "max": 4,
+                    "collapsed": "",
+                    "button_label": "Add Row",
+                    "rows_per_page": 20,
+                    "sub_fields": [
+                        {
+                            "key": "field_6818e613803cf",
+                            "label": "Page",
+                            "name": "page",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_6818e5e0803ce"
+                        },
+                        {
+                            "key": "field_6818e622803d0",
+                            "label": "Page Description",
+                            "name": "page_description",
+                            "aria-label": "",
+                            "type": "textarea",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "acfe_textarea_code": 0,
+                            "maxlength": "",
+                            "rows": "",
+                            "placeholder": "",
+                            "new_lines": "",
+                            "parent_repeater": "field_6818e5e0803ce"
+                        }
+                    ]
+                },
+                {
+                    "key": "field_6818e667803d2",
+                    "label": "Should the sitemap appear in a different order from the standard?",
+                    "name": "should_the_sitemap_appear_in_a_different_order_from_the_standard",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Yes": "Yes",
+                        "No": "No"
+                    },
+                    "default_value": "",
+                    "return_format": "value",
+                    "allow_null": 1,
+                    "other_choice": 0,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_6818e683803d3",
+                    "label": "",
+                    "name": "",
+                    "aria-label": "",
+                    "type": "message",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "<article style=\"background-color: #2f2f67; color: #f1c232; padding: 20px; border-radius: 10px;\">\r\n    <ul>\r\n        <li style=\"color: #f1c232\">Home\r\n        <li style=\"color: #f1c232\">About Us\r\n        <li style=\"color: #f1c232\">Service Pages<ul>\r\n                <li style=\"color: #f1c232\">SP 1<\/li>\r\n                <li style=\"color: #f1c232\">SP 2<\/li>\r\n                <li style=\"color: #f1c232\">SP 3<\/li>\r\n                <li style=\"color: #f1c232\">SP 4<\/li>\r\n            <\/ul>\r\n        <\/li>\r\n        <li style=\"color: #f1c232\">Gallery<\/li>\r\n        <li style=\"color: #f1c232\">Testimonials<\/li>\r\n        <li style=\"color: #f1c232\">Contact<\/li>\r\n    <\/ul>\r\n<\/article>",
+                    "new_lines": "wpautop",
+                    "esc_html": 0
+                },
+                {
+                    "key": "field_6818e707803d4",
+                    "label": "Sitemap order",
+                    "name": "sitemap_order",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_6818e667803d2",
+                                "operator": "==contains",
+                                "value": "Yes"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "acfe_textarea_code": 0,
+                    "maxlength": "",
+                    "rows": "",
+                    "placeholder": "",
+                    "new_lines": ""
+                }
+            ],
+            "acfe_group_modal_close": 0,
+            "acfe_group_modal_button": "",
+            "acfe_group_modal_size": "large"
+        },
+        {
+            "key": "field_6818e3bb803bf",
+            "label": "<h3>Website Design<\/h3>",
+            "name": "website_design",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": "design"
+            },
+            "layout": "block",
+            "acfe_seamless_style": 0,
+            "acfe_group_modal": 0,
+            "sub_fields": [
+                {
+                    "key": "field_6818e3bb803c0",
+                    "label": "",
+                    "name": "",
+                    "aria-label": "",
+                    "type": "message",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "<article style=\"background-color: #2f2f67; color: #f1c232; padding: 20px; border-radius: 10px;\">\r\n    <p>Now to the fun stuff - design! <strong>If the client has a logo, please reference the colors\/ branding. If the client does not have a logo, please offer to create one.<\/strong><\/p>\r\n<\/article>",
+                    "new_lines": "wpautop",
+                    "esc_html": 0
+                },
+                {
+                    "key": "field_681cd04076db0",
+                    "label": "Does your business have a logo?",
+                    "name": "does_your_business_have_a_logo",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Yes": "Yes",
+                        "No": "No"
+                    },
+                    "default_value": "",
+                    "return_format": "value",
+                    "allow_null": 1,
+                    "other_choice": 0,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_681cd00d68b0a",
+                    "label": "Logo",
+                    "name": "logo",
+                    "aria-label": "",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_681cd04076db0",
+                                "operator": "==",
+                                "value": "Yes"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "uploader": "",
+                    "return_format": "array",
+                    "acfe_thumbnail": 0,
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "",
+                    "preview_size": "medium",
+                    "library": "all"
+                },
+                {
+                    "key": "field_681cd08e76db1",
+                    "label": "Are we creating a generic logo for them?",
+                    "name": "are_we_creating_a_generic_logo_for_them",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_681cd04076db0",
+                                "operator": "==contains",
+                                "value": ""
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Yes": "Yes",
+                        "No": "No"
+                    },
+                    "default_value": "",
+                    "return_format": "value",
+                    "allow_null": 1,
+                    "other_choice": 0,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_6818e788a7b71",
+                    "label": "What colors does the client want us to use on their website? What will be the primary color?",
+                    "name": "what_colors_does_the_client_want_us_to_use_on_their_website_what_will_be_the_primary_color",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_6818e790a7b72",
+                    "label": "Did you screen share or walk the client through an example site? If so, what website?",
+                    "name": "did_you_screen_share_or_walk_the_client_through_an_example_site_if_so_what_website",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_6818e79ca7b73",
+                    "label": "Website Theme to be used",
+                    "name": "website_theme_to_be_used",
+                    "aria-label": "",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Dome (Light)": "Dome (Light)",
+                        "McBeal (Light)": "McBeal (Light)",
+                        "Nomad (Light)": "Nomad (Light)",
+                        "Mayfair (Light)": "Mayfair (Light)",
+                        "Mayfair (Dark)": "Mayfair (Dark)",
+                        "Prague (Light)": "Prague (Light)",
+                        "Prague (Dark)": "Prague (Dark)",
+                        "Rushmore": "Rushmore",
+                        "Sunrise (Light)": "Sunrise (Light)",
+                        "Sunrise (Dark)": "Sunrise (Dark)"
+                    },
+                    "default_value": false,
+                    "return_format": "value",
+                    "multiple": 0,
+                    "allow_custom": 0,
+                    "search_placeholder": "",
+                    "allow_null": 0,
+                    "ui": 1,
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_6818e7eaa7b74",
+                    "label": "Any badges we need to add?",
+                    "name": "any_badges_we_need_to_add",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Yes": "Yes",
+                        "No": "No"
+                    },
+                    "default_value": "",
+                    "return_format": "value",
+                    "allow_null": 1,
+                    "other_choice": 0,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_6818e86ca7b75",
+                    "label": "Badges",
+                    "name": "badges",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_6818e7eaa7b74",
+                                "operator": "==contains",
+                                "value": "Yes"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "acfe_repeater_stylised_button": 1,
+                    "layout": "table",
+                    "pagination": 0,
+                    "min": 1,
+                    "max": 0,
+                    "collapsed": "",
+                    "button_label": "Add Row",
+                    "rows_per_page": 20,
+                    "sub_fields": [
+                        {
+                            "key": "field_6818e87da7b76",
+                            "label": "Badge title",
+                            "name": "badge_title",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_6818e86ca7b75"
+                        },
+                        {
+                            "key": "field_6818e890a7b77",
+                            "label": "Badge URL",
+                            "name": "badge_url",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_6818e86ca7b75"
+                        },
+                        {
+                            "key": "field_6818e899a7b78",
+                            "label": "Badge Image",
+                            "name": "badge_image",
+                            "aria-label": "",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "uploader": "",
+                            "return_format": "array",
+                            "acfe_thumbnail": 0,
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": "",
+                            "preview_size": "medium",
+                            "library": "all",
+                            "parent_repeater": "field_6818e86ca7b75"
+                        }
+                    ]
+                },
+                {
+                    "key": "field_6818e8c9c7353",
+                    "label": "What types of photos would the client like to use on their website?",
+                    "name": "what_types_of_photos_would_the_client_like_to_use_on_their_website",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Stock photos": "Stock photos",
+                        "Client photos": "Client photos",
+                        "Mix of both": "Mix of both"
+                    },
+                    "default_value": "",
+                    "return_format": "value",
+                    "allow_null": 1,
+                    "other_choice": 0,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_681cd0fd76db2",
+                    "label": "Add the link to the client folder",
+                    "name": "add_the_link_to_the_client_folder",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_6818e8c9c7353",
+                                "operator": "==contains",
+                                "value": "Client photos"
+                            }
+                        ],
+                        [
+                            {
+                                "field": "field_6818e8c9c7353",
+                                "operator": "==contains",
+                                "value": "Mix of both"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_6818e8f0c7354",
+                    "label": "Map layout preference",
+                    "name": "map_layout_preference",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Circle radius": "Circle radius",
+                        "Polygon": "Polygon",
+                        "Other": "Other"
+                    },
+                    "default_value": "",
+                    "return_format": "value",
+                    "allow_null": 1,
+                    "other_choice": 0,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_6818ea21381e3",
+                    "label": "Other:",
+                    "name": "map_layout_preference_other",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_6818e8f0c7354",
+                                "operator": "==contains",
+                                "value": "Other"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_6818ea46381e4",
+                    "label": "Any payment options we need to feature?",
+                    "name": "any_payment_options_we_need_to_feature",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "acfe_textarea_code": 0,
+                    "maxlength": "",
+                    "rows": "",
+                    "placeholder": "",
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_6818ea51381e5",
+                    "label": "Any additional design notes\/ features we need to include:",
+                    "name": "any_additional_design_notes_features_we_need_to_include:",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "acfe_textarea_code": 0,
+                    "maxlength": "",
+                    "rows": "",
+                    "placeholder": "",
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_6818ea6a381e6",
+                    "label": "",
+                    "name": "",
+                    "aria-label": "",
+                    "type": "message",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "<article style=\"background-color: #2f2f67; color: #f1c232; padding: 20px; border-radius: 10px;\">\r\n    <p>As I mentioned earlier, reviews are imperative to your success on Google. We will be linking the app to your GBP for customer reviews.<\/p> <p>I see you have some great ones already! I would love to highlight your 5 star reviews on your homepage<\/p>\r\n    <h5>- OR -<\/h5>\r\n    <p>I see you do not have any yet. Reminder to use the app to ask for reviews from your past clients! This is a great trust signal I’d love to feature on your website in the future.<\/p>\r\n<\/article>",
+                    "new_lines": "wpautop",
+                    "esc_html": 0
+                },
+                {
+                    "key": "field_681cd17676db4",
+                    "label": "Are we migrating any of the clients reviews to their website?",
+                    "name": "are_we_migrating_any_of_the_clients_reviews_to_their_website",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Yes": "Yes",
+                        "No": "No"
+                    },
+                    "default_value": "",
+                    "return_format": "value",
+                    "allow_null": 1,
+                    "other_choice": 0,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_681cd18676db5",
+                    "label": "Please provide a link to the reviews below",
+                    "name": "please_provide_a_link_to_the_reviews_below",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "Reminder we will only pull 5 star reviews.",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_681cd17676db4",
+                                "operator": "==contains",
+                                "value": "Yes"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "acfe_textarea_code": 0,
+                    "maxlength": "",
+                    "rows": "",
+                    "placeholder": "",
+                    "new_lines": ""
+                }
+            ],
+            "acfe_group_modal_close": 0,
+            "acfe_group_modal_button": "",
+            "acfe_group_modal_size": "large"
+        },
+        {
+            "key": "field_6812442cb2af6",
+            "label": "<h3>Domain + Access<\/h3>",
+            "name": "domain_information_group",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": "domain-information"
+            },
+            "layout": "block",
+            "acfe_seamless_style": 0,
+            "acfe_group_modal": 0,
+            "sub_fields": [
+                {
+                    "key": "field_6818ea93381e7",
+                    "label": "",
+                    "name": "",
+                    "aria-label": "",
+                    "type": "message",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "<article style=\"background-color: #2f2f67; color: #f1c232; padding: 20px; border-radius: 10px;\">\r\n    <p>A few more things and I’ll let you go! I just need to get access to your primary domain and verify some business information. I see that you DO or DO NOT already have a domain purchased. It looks like it was purchased with  X. Do you have logins available for this domain? If the client does not have a domain, offer to purchase one. <\/p>\r\n<\/article>",
+                    "new_lines": "wpautop",
+                    "esc_html": 0
+                },
+                {
+                    "key": "field_6812442d72067",
+                    "label": "Client’s Primary Domain:",
+                    "name": "domain_info_current_domain_url",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_6818eac0381e8",
+                    "label": "Where is the domain hosted:",
+                    "name": "where_is_the_domain_hosted:",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_6818eacd381e9",
+                    "label": "Logins:",
+                    "name": "logins:",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "acfe_textarea_code": 0,
+                    "maxlength": "",
+                    "rows": "",
+                    "placeholder": "",
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_6818eadd381ea",
+                    "label": "Alternate Domain",
+                    "name": "alternate_domain",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "(if we could not get access to the primary domain)",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "acfe_textarea_code": 0,
+                    "maxlength": "",
+                    "rows": "",
+                    "placeholder": "",
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_6818eb23381eb",
+                    "label": "",
+                    "name": "",
+                    "aria-label": "",
+                    "type": "message",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "<article style=\"background-color: #2f2f67; color: #f1c232; padding: 20px; border-radius: 10px;\">\r\n    <h5>If we can not get access to the client’s primary domain:<\/h5>\r\n    <p>No problem Mr. Customer, I will be reaching out to you every couple days so we can work on obtaining access to your primary domain. If we are unable to get access, we can purchase an alternate domain at no additional cost to you so we can start getting your website live and have Google start the initial crawl process. <\/p>\r\n<\/article>",
+                    "new_lines": "wpautop",
+                    "esc_html": 0
+                },
+                {
+                    "key": "field_6812442d72160",
+                    "label": "Does the client have any emails associated with the domain?",
+                    "name": "does_the_client_have_any_emails_associated_with_the_domain",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "acfe_textarea_code": 0,
+                    "maxlength": "",
+                    "rows": "",
+                    "placeholder": "",
+                    "new_lines": ""
+                }
+            ],
+            "acfe_group_modal_close": 0,
+            "acfe_group_modal_button": "",
+            "acfe_group_modal_size": "large"
+        },
+        {
+            "key": "field_6818eb66381ec",
+            "label": "<h3>NAP Information<\/h3>",
+            "name": "nap_information",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": "business-details"
+            },
+            "layout": "block",
+            "acfe_seamless_style": 0,
+            "acfe_group_modal": 0,
+            "sub_fields": [
+                {
+                    "key": "field_6818eb66381ed",
+                    "label": "",
+                    "name": "",
+                    "aria-label": "",
+                    "type": "message",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "<article style=\"background-color: #2f2f67; color: #f1c232; padding: 20px; border-radius: 10px;\">\r\n    <p>Great! To finish us up today, I just need to verify your business information: <\/p>\r\n<\/article>",
+                    "new_lines": "wpautop",
+                    "esc_html": 0
+                },
+                {
+                    "key": "field_6818eb8e381f4",
+                    "label": "Business Name",
+                    "name": "business_name",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_6818ed4b381f5",
+                    "label": "Has the business ever been under a different name?",
+                    "name": "has_the_business_ever_been_under_a_different_name",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Yes": "Yes",
+                        "No": "No"
+                    },
+                    "default_value": "",
+                    "return_format": "value",
+                    "allow_null": 1,
+                    "other_choice": 0,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_6818ed6f381f6",
+                    "label": "If so, what other business name have you operated under?",
+                    "name": "if_so_what_other_business_name_have_you_operated_under",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_6818ed4b381f5",
+                                "operator": "==contains",
+                                "value": "Yes"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_6818ed9e381f7",
+                    "label": "Business Phone Number",
+                    "name": "business_phone_number",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_6818eda8381f8",
+                    "label": "Official Business Address",
+                    "name": "official_business_address",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "Please confirm the address using Google & copy and paste directly from there. NO P.O. boxes allowed.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_6818edc9381f9",
+                    "label": "City",
+                    "name": "city",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_6818edd7381fa",
+                    "label": "State",
+                    "name": "state",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_6818eddd381fb",
+                    "label": "Zip Code",
+                    "name": "zip_code",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_6818edeb381fc",
+                    "label": "Did you Google the address to ensure it is not a PO Box or Fed Ex\/ UPS Address?",
+                    "name": "did_you_google_the_address_to_ensure_it_is_not_a_po_box_or_fed_ex_ups_address",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Yes": "Yes",
+                        "No": "No"
+                    },
+                    "default_value": "",
+                    "return_format": "value",
+                    "allow_null": 1,
+                    "other_choice": 0,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_6818ee20381fd",
+                    "label": "Does the client want to show the business address?",
+                    "name": "does_the_client_want_to_show_the_business_address",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "If yes, confirm they are a brick and mortar that clients can visit.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Yes": "Yes",
+                        "No": "No"
+                    },
+                    "default_value": "",
+                    "return_format": "value",
+                    "allow_null": 1,
+                    "other_choice": 0,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                }
+            ],
+            "acfe_group_modal_close": 0,
+            "acfe_group_modal_button": "",
+            "acfe_group_modal_size": "large"
+        },
+        {
+            "key": "field_6818ee56381fe",
+            "label": "<h3>Closing Items<\/h3>",
+            "name": "closing_items",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": "domain-information"
+            },
+            "layout": "block",
+            "acfe_seamless_style": 0,
+            "acfe_group_modal": 0,
+            "sub_fields": [
+                {
+                    "key": "field_6818ee56381ff",
+                    "label": "",
+                    "name": "",
+                    "aria-label": "",
+                    "type": "message",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "<article style=\"background-color: #2f2f67; color: #f1c232; padding: 20px; border-radius: 10px;\">\r\n    <p>Alright! I have everything I need to get your campaign started. Here’s what the next few weeks are going to look like. I am going to share all of this information with my internal team of experts. They are going to work on the build of your website, ensuring all of the information we talked about today is implemented and you are set up for success on Google. This process takes about 3 weeks, but do not worry - I will keep you looped in every step of the way. Typically, I call my clients every 2 business days to check in. I always want to over communicate in case there are any questions you may have! Do phone calls work best for you? If not, I can always email or text.\r\n<\/p>\r\n<\/article>",
+                    "new_lines": "wpautop",
+                    "esc_html": 0
+                },
+                {
+                    "key": "field_6818ee7d3820a",
+                    "label": "What is the client’s preferred method of communication for their campaign",
+                    "name": "what_is_the_client’s_preferred_method_of_communication_for_their_campaign",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "acfe_textarea_code": 0,
+                    "maxlength": "",
+                    "rows": "",
+                    "placeholder": "",
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_6818ee883820b",
+                    "label": "What day\/ time are you calling the client in 2 business days?",
+                    "name": "what_day_time_are_you_calling_the_client_in_2_business_days",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "acfe_textarea_code": 0,
+                    "maxlength": "",
+                    "rows": "",
+                    "placeholder": "",
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_6818ee923820c",
+                    "label": "",
+                    "name": "",
+                    "aria-label": "",
+                    "type": "message",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "<article style=\"background-color: #2f2f67; color: #f1c232; padding: 20px; border-radius: 10px;\">\r\n    <p>When your website is ready for review, I will give you a call. I will share the website and we will walk through the build. Reminder, we are building this website for Google. There are going to be a lot of mentions of your CITY and STATE  throughout the content of your website. This is what Google needs to see in order to show your website and services to the right people at the right place. Once we review your website, we will go ahead and launch it , then I will introduce you to your dedicated account manager who will be with you for the lifetime of your campaign. Do you have any questions for me?<\/p>\r\n    <p>Great! I will send an email with  my contact information and any of the outstanding items we discussed today. I will be in touch with you via PREFERRED CONTACT METHOD on X day. Is there a time of day that works best for you? If you need anything, please feel free to call or text me. There will be a link in the signature of my email if you’d like to book some time on my calendar if you need me as well. It was a pleasure speaking with you today and getting to know more about your business. We appreciate you choosing Olly Olly! Have a great day!<\/p>\r\n<\/article>",
+                    "new_lines": "wpautop",
+                    "esc_html": 0
+                }
+            ],
+            "acfe_group_modal_close": 0,
+            "acfe_group_modal_button": "",
+            "acfe_group_modal_size": "large"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "new-intake-form"
+            }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "templates\/page-new-intake-form.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "revisions"
+    ],
+    "active": true,
+    "description": "",
+    "show_in_rest": 1,
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1748988149
+}

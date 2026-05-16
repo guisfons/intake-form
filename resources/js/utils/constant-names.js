@@ -1,0 +1,16 @@
+export default {
+  Hover: "hover",
+  Active: "active",
+  Open: "open",
+  NoTouch: "no-touch",
+  IsTouch: "is-touch",
+  IsScrolled: "is-scrolled",
+  IsIos: "is-ios",
+  IsIE: "is-ie",
+  IsEdge: "is-edge",
+  ShowMainNav: "show-main-nav",
+  ShowSearch: "show-search",
+  PageLoaded: "page-loaded",
+  IsLoading: "is-loading",
+  IsAnimating: "is-animating",
+};

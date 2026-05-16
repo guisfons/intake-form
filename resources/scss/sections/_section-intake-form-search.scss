@@ -1,0 +1,269 @@
+/****** Style to Blog Page ******/
+#section-intake-form-page {
+    display       : flex;
+    max-width     : 1112px;
+    padding       : 60px 20px;
+    flex-direction: column;
+    align-items   : center;
+    border-radius : 18px;
+    background    : var(--white, #FFF);
+    box-shadow    : 16px 16px 0px 0px #F2F2F2;
+    margin-left   : auto;
+    margin-right  : auto;
+    margin-bottom : 100px;
+
+    @include breakpoint-up(mobile) {
+        padding: 109px 128px 195px 128px;
+    }
+
+    // spacing to sections
+    .section-content {
+        position     : relative;
+        width        : 100%;
+        min-height   : 1px;
+        padding-right: 15px;
+        padding-left : 15px;
+    }
+
+    .shell {
+        @include breakpoint-down(mobile) {
+            margin : 0;
+            padding: 0;
+        }
+    }
+
+    .section-content {
+
+        /* List items for BLOG PAGE (VERTICAL GRID) */
+        .grid-intake-form-page {
+            display  : flex;
+            flex-wrap: wrap;
+
+            article {
+                display : block;
+                position: relative;
+                width   : 100%;
+            }
+
+            .item {
+                position  : relative;
+                width     : 100%;
+                min-height: 1px;
+                padding   : 15px 0;
+                display   : flex;
+                height    : inherit !important;
+
+                .box-shadow {
+                    display         : flex;
+                    flex-direction  : column;
+                    background-color: #FFFFFF;
+                    width           : 100%;
+                    transition      : all 0.2s linear;
+                    padding         : 26px 30px;
+                    border-radius   : 20px;
+                    border          : 1px solid #000000;
+                    box-shadow      : 4px 4px 0px 0px #000;
+
+                    .status {
+                        display      : block;
+                        position     : relative;
+                        width        : max-content;
+                        padding      : 6px 13px;
+                        border-radius: 4px;
+                        background   : #E6F2E3;
+                        margin-bottom: 10px;
+
+                        label {
+                            display       : block;
+                            text-transform: uppercase;
+                            color         : #559749;
+                            font-size     : 10px;
+                            font-family   : 'Cabin', sans-serif;
+                            font-style    : normal;
+                            font-weight   : 700;
+                            line-height   : 130%;
+                            letter-spacing: 1.75px;
+                        }
+
+                        &.in-progress {
+                            background: #FECFD5;
+
+                            label {
+                                color: #B82A26;
+                            }
+                        }
+                    }
+
+                    .title {
+                        margin: 0 0 10px;
+
+                        h3 {
+                            color         : #000;
+                            font-size     : 28px;
+                            font-family   : 'Montserrat', sans-serif;
+                            font-style    : normal;
+                            font-weight   : 600;
+                            line-height   : 130%;
+                            letter-spacing: 0.25px;
+                        }
+                    }
+
+                    .post-data {
+
+                        ul {
+                            list-style: none;
+                            display   : flex;
+
+                            li {
+                                color         : #444240;
+                                font-size     : 12px;
+                                font-family   : 'Cabin', sans-serif;
+                                font-style    : normal;
+                                font-weight   : 700;
+                                line-height   : 175%;
+                                letter-spacing: 1.5px;
+                                text-transform: uppercase;
+
+                                i {
+                                    padding-right: 7px;
+                                }
+
+                                &:nth-child(2) {
+                                    margin-left: 15px;
+                                }
+                            }
+                        }
+                    }
+
+                    .cta {
+                        display: flex;
+                        width  : max-content;
+
+                        position : absolute;
+                        right    : 30px;
+                        top      : 50%;
+                        transform: translateY(-50%);
+
+                        .btn-intake-form {
+
+                            font-size       : 14px;
+                            font-family     : 'Cabin', sans-serif;
+                            font-style      : normal;
+                            font-weight     : 600;
+                            line-height     : 24px;
+                            letter-spacing  : 0.21px;
+                            text-align      : center;
+                            text-decoration : none;
+                            color           : #444240;
+                            background-color: #FFFFFF;
+                            border          : 2px solid #444240;
+                            box-sizing      : border-box;
+                            border-radius   : 8px;
+                            padding         : 12px 24px;
+                            display         : inline-block;
+                            transition      : color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+
+                            &:hover {
+                                box-shadow: 0px 4px 0px 0px #000;
+                            }
+                        }
+
+                        @include breakpoint-down(mobile) {
+                            display   : block;
+                            position  : relative;
+                            transform : none;
+                            right     : inherit;
+                            margin-top: 20px;
+                        }
+                    }
+                }
+            }
+
+            /* No posts results */
+            .output-message {
+                h2 {
+                    color      : #444240;
+                    font-size  : 28px;
+                    font-family: 'Montserrat', sans-serif;
+                    font-style : normal;
+                    font-weight: 600;
+                    line-height: 150%;
+
+                    strong {
+                        font-weight: 800;
+                        color      : #000000;
+                    }
+                }
+
+                margin-bottom: 35px;
+            }
+        }
+
+        @include breakpoint-down(mobile) {
+            padding: 0;
+        }
+    }
+
+
+    /****** Pagination ******/
+    .pagination {
+        display     : flex;
+        flex-wrap   : wrap;
+        margin-right: -15px;
+        margin-left : -15px;
+        margin-top  : 40px;
+
+        .container {
+            flex           : 0 0 100%;
+            max-width      : 100%;
+            position       : relative;
+            display        : flex;
+            flex-direction : initial;
+            justify-content: center;
+            width          : 100%;
+
+            .btn-page {
+                display         : flex;
+                width           : 44px;
+                height          : 44px;
+                max-width       : 44px;
+                max-height      : 44px;
+                position        : relative;
+                align-items     : center;
+                justify-content : center;
+                box-shadow      : none;
+                color           : #63615F;
+                background-color: #FFFFFF;
+                border-radius   : 50%;
+                border          : 1px solid rgba(99, 97, 95, 0.16);
+                transition      : color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+
+                font-size     : 16px;
+                font-family   : 'Cabin', sans-serif;
+                font-style    : normal;
+                font-weight   : 600;
+                line-height   : 26px;
+                letter-spacing: 0.24px;
+
+                &.next-previus {
+                    cursor: pointer;
+                }
+
+                &.active {
+                    color           : #444240;
+                    background-color: #FFDE3B;
+                    border-color    : #FFDE3B;
+                }
+
+                &:hover {
+                    border-color: #FFDE3B;
+                }
+
+                &:not(:last-child) {
+                    margin-right: 14px;
+                }
+            }
+
+        }
+    }
+}

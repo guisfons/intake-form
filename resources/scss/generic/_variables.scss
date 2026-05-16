@@ -1,0 +1,89 @@
+$font-size-base      : 16px;
+$line-height-base    : 1.75;
+$font-weight-base    : 400;
+$letter-spacing-base : 0.0278em;
+
+$font-size-base-mobile      : 14px;
+$line-height-base-mobile    : 1.77;
+$letter-spacing-base-mobile : 0.005em;
+
+$font-size-large   : 16px;
+$line-height-large : 1.69;
+
+$ff-sans-serif : 'Source Sans Pro',
+sans-serif;
+$ff-sans-serif-2 : 'Poppins',
+sans-serif;
+$ff-serif : Georgia,
+'Times New Roman',
+Times,
+serif;
+$ff-roboto : 'Roboto',
+sans-serif;
+
+$t-duration      : 400ms;
+$t-duration-fast : 200ms;
+
+$shell-max-width-wide : 1556px;
+$shell-max-width      : 1156px;
+$shell-max-width-lg   : 1358px;
+$shell-max-width-big  : 1408px;
+$shell-max-width-sm   : 1150px;
+$shell-max-width-md   : 1200px;
+$shell-gutter         : 50px;
+$shell-gutter-tablet  : 24px;
+$shell-gutter-mobile  : 16px;
+
+$c-black  : #24292E;
+$c-white  : #fff;
+$c-white2 : #E9E9EC;
+$c-white3 : #F6F7F9;
+$c-base   : #171717;
+$c-bg     : #f9f9f9;
+$c-gray   : #BDBDBD;
+$c-gray-2 : #727374;
+$c-red    : #ea2727;
+$c-orange : #F98C6B;
+$c-gray-3 : #121212;
+$c-gray-4 : #313539;
+$c-gray-5 : #fafafa;
+$c-gray-6 : #fcfcfc;
+
+
+//Forms variables for mayfair
+$form-bg               : #fff;
+$form-text-placeholder : #BDBDBD;
+$form-input-bg         : #F9F9F9;
+$form-text-filled      : #333333;
+$form-input-invalid    : #E74C3C;
+$form-submit-btn       : #fff;
+
+//What we do block - Variables
+// wwd stands for What we do
+$wwd-bg-color-hex : #3333;
+$wwd-white-accent : #E9E9EC;
+
+
+// Contact Form 7 - Inputs colors
+$active-field-text-color-on-dark : #ECECEC;
+$active-field-text-color-on-light: #2D3436;
+
+$responsive-ios : 812px;
+
+$breakpoints: (
+	mobile-small: 380px,
+	mobile-470: 470px,
+	mobile-medium: 575px,
+	mobile-676: 676px,
+	mobile: 767px,
+	mobile-770: 770px,
+	admin-bar: 782px,
+	tablet-840: 840px,
+	tablet-1: 1023px,
+	tablet: 1024px,
+	small-desktop: 1199px,
+	medium-desktop: 1280px,
+	large-desktop: 1399px,
+	large-desktop-1440: 1439px,
+	xlarge-desktop: 1500px,
+);
